@@ -1,0 +1,26 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Input and generated datasets
+/data/raw/
+/data/dataset/
+/data/processed/
+
+# Generated outputs
+/results/figures/
+/results/tables/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
