@@ -1,26 +1,29 @@
-# Python environments
+# Entornos de Python
 .venv/
 venv/
 env/
 
-# Python cache and compiled files
+# Cache
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Input and generated datasets
+# Datasets: conservar solamente instrucciones de descarga/generación
 /data/raw/
-/data/dataset/
-/data/processed/
+/data/dataset/*
+!/data/dataset/README.md
+/data/processed/*
+!/data/processed/README.md
 
-# Generated outputs
+# Salidas generadas
 /results/figures/
 /results/tables/
 
-# Operating system files
+# Sistema operativo
 .DS_Store
 Thumbs.db
 desktop.ini
